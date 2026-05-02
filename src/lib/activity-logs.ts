@@ -1,0 +1,30 @@
+export const ACTION_LABELS_AR: Record<string, string> = {
+  'invoice_created': 'إنشاء فاتورة',
+  'payment_recorded': 'تسجيل دفعة',
+  'product_added': 'إضافة منتج',
+  'product_updated': 'تحديث منتج',
+  'custody_assigned': 'تسليم عهدة',
+  'custody_returned': 'استرجاع عهدة',
+  'supplier_added': 'إضافة مورد',
+  'supplier_tx_added': 'إضافة فاتورة مورد',
+  'supplier_payment': 'سداد مديونية مورد',
+  'expense_added': 'تسجيل مصروف إداري',
+  'user_added': 'إضافة مستخدم جديد',
+  'customer_added': 'إضافة عميل جديد',
+  'products_insert': 'إضافة منتج (مخزن)',
+  'products_update': 'تعديل بيانات منتج',
+  'products_delete': 'حذف منتج من المخزن',
+  'printers_insert': 'إضافة طابعة جديدة',
+  'printers_update': 'تعديل بيانات طابعة',
+  'custody_items_insert': 'تسليم عهدة جديدة',
+  'custody_items_update': 'تحديث حالة عهدة',
+};
+
+export const TABLE_LABELS_AR: Record<string, string> = {
+  'invoices': 'الفواتير',
+  'products': 'المخزون',
+  'printers': 'الطابعات',
+  'supplier_transactions': 'حسابات الموردين',
+  'expenses': 'المصاريف',
+  'custody_items': 'العهد',
+};
